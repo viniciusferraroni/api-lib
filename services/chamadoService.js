@@ -1,12 +1,12 @@
 const { suporteN1 } = require('../handlers/suporteHandler')
 
-
 function criar(dados){
     console.log('2 - SERVICE recebeu', dados);
     const chamado = {
         id:1,
         titulo:dados.titulo,
         prioridade:dados.prioridade,
+        especialidade:dados.especialidade,
         status:'aberto'
     }
 
